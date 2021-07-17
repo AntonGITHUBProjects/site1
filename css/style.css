@@ -1,0 +1,402 @@
+*{
+	box-sizing:border-box;/*Делает так,что padding-left и border и тому подобные не
+	увеличивают блок*/
+}
+@font-face{
+	font-family:GothamProBlack;
+	src:url(../fonts/GothamPro-Black.ttf);
+}
+@font-face{
+	font-family:OpenSans-Light;
+	src:url(../fonts/OpenSans-Light.ttf);
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+li{
+	font-family:Lato,sans-serif;
+	text-decoration:none;
+}
+#ulMenu li{
+	padding-left:40px;
+	font-size:14px;
+}
+#activeLink{
+	background-color:#FFBB42;
+	width:81px;
+	text-align:center;
+	border-radius:3px;
+}
+#activeLink:hover{
+	background-color:black;
+	transition:.1s ease-in-out;
+}
+#ulMenu li a{
+	color:black;
+}
+#ulMenu li a:hover{
+	color:#FFBB42;
+}
+#banner h1{
+	font-size:35px;
+	padding-top:110px;
+	margin:0px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family:GothamProBlack;
+}
+#banner p{
+	font-family:OpenSans-Light;
+}
+.white{
+	color:white;
+}
+#banner{
+	background-color:#709DCA; 
+	text-align:center;
+	margin-top:-21px;
+	height:585px;
+}
+#carousel{
+	margin-top:50px;	
+}
+#submit{
+	background-color: #FFBB42;
+}
+.input-banner{
+	height:46px;
+	width:282px;
+	font-family: FontAwesome;
+}
+
+
+.inline{
+	display:inline;
+}
+.eclipse{
+	background-color:black;
+	width:10px;
+	height:16px;
+	border-radius: 50%;
+	border-color:black;
+}
+.eclipse:hover{
+	border:1px blue solid;
+}
+#head{
+	margin:0;
+}
+#serviceH1{
+	text-align:center;
+	padding-top:210px;
+	margin-top:0px;
+}
+#serviceP{
+	text-align:center;
+	font-size:20px;
+	margin-top:-25px;
+}
+#service ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.image{
+	right:100px;
+	top:50px;
+	position:relative;
+}
+#service ul p{
+	max-width:420px;
+	font-size:13px;
+}
+#img6{
+	right:90px;
+}
+#img3{
+	right:95px;
+}
+h2{
+	font-weight:bold;
+}
+#aboutUs{
+	background-color: #FFC155;
+}
+#aboutUs p{
+	max-width:505px;
+}
+#aboutUsImg{
+	margin:0px;
+	padding:0px;
+}
+#aboutUsText{
+	margin-top:170px;
+}
+#aboutUsButton{
+	width:145px;
+	height:45px;
+	background-color: #FFC155;
+	border:1px black solid;
+	border-radius:0px;
+	color:white;
+}
+#pricing{
+	background-color: #E7EDF3;
+}
+#headPricing{
+	margin:0 auto;
+	text-align: center;
+	padding-top:140px;
+}
+#headPricing p{
+	margin-top:-15px;
+}
+#card1{
+	margin-top:33px;
+	height:440px;
+	background-color:white;
+}
+#card2{
+	height:500px;
+	background-color:#709DCA;
+}
+#card3{
+	margin-top:33px;
+	height:440px;
+	background-color:white;
+}
+.noIndentation{
+	margin-left:0;
+	padding-left:0;
+	padding-right:0;
+	margin-right:0;
+	text-align:center;
+}
+#pricingCard{
+	margin-top:50px;
+}
+#pricingCard p{
+	font-size:25px;
+	font-family:Lato,sans-serif;
+	margin-top: 88px;
+}
+.orange{
+	color:#FFC155;
+}
+.spanStyleCard{
+	font-size:60px;
+	font-family:Lato,sans-serif;
+}
+.perMonthCard{
+	font-size:15px;
+	margin-top:-15px;
+}
+#pricingCard hr{
+	width:90%;
+	margin:0 auto;
+	background-color:#E2E9F0;
+}
+.planSpan{
+	margin-top:5px;
+	margin-bottom:5px;
+	color:#B5BBC1;
+}
+.planButton{
+	background-color:#FFC155;
+	width:130px;
+	margin:0 auto;
+	margin-top:10px;
+}
+#howItWorkHead{
+	text-align:center;
+	margin:0 auto;
+	margin-top:152px;
+}
+#howItWorkHead p{
+	margin-top:-15px;
+}
+#howItWorkStep li{
+	list-style-type:none;
+	display:inline;
+}
+#howItWorkStep{
+	text-align:center;
+	margin-top:70px;
+}
+#howItWorkStep p{
+	max-width:212px;
+	text-align:center;
+	margin:0;
+}
+.howItWorkDiv{
+	margin-top:100px;
+}
+.arrow3{
+	margin-top:-50px;
+}
+.arrow2{
+	margin-top:70px;
+}
+.reviewLi1{
+	position:relative;
+	margin-right:30px;
+}
+.reviewLi2{
+	position:relative;
+	margin-right:30px;
+}
+#reviewDiv3{
+	margin-top:0;
+}
+#howItWorkButton{
+	margin:0 auto;
+	background-color:#FFC155;
+	margin-top:93px;
+	width:165px;
+	height:45px;
+}
+#clients{
+	background-color:#FFC155;
+}
+#headClients{
+	margin:0 auto;
+	text-align:center;
+	margin-top:145px;
+}
+#headClients p{
+	margin-top:-20px;
+}
+#clientsReview li{
+	list-style-type:none;
+	display:inline;
+}
+#clientsReview ul{
+margin:0;
+padding:0;
+}
+.liReview{
+	background-color:white; 
+}
+.liReview p{
+	max-width:350px;
+	font-size:14px;
+	font-family:Lato,sans-serif;
+	margin-left:30px;
+}
+@media(max-width:1280px){
+	.image{
+	right:0;
+	top:0;
+	position:inherit;
+	}
+	#img6{
+	right:0;
+}
+	#img3{
+	right:0;
+}
+.arrow2{
+	opacity:0;
+	position:absolute;
+}
+.arrow3{
+	opacity:0;
+	position:absolute;
+}
+}	
+@media(min-width:970px) and (max-width:1170px){
+.reviewLi1{
+	position:relative;
+	margin-right:10px;
+}
+.reviewLi2{
+	position:relative;
+	margin-right:10px;
+}
+#reviewDiv3{
+	position:relative;
+	margin-top:0;
+}
+}
+@media(max-width:970px){
+.reviewLi1{
+	position:relative;
+	margin-right:0;
+}
+.reviewLi2{
+	position:relative;
+	margin-right:0;
+}
+#reviewDiv3{
+	position:relative;
+	margin-top:30px;
+}
+}
+.author{
+	position: absolute;
+	margin-top:13px;
+	text-transform:uppercase;
+}
+.orange1{
+	color:#F78948;
+}
+#newsletterHead{
+	text-align:center;
+	margin-top:155px;
+	padding:0;
+}
+#newsletterHead p{
+	margin-top:-15px;
+}
+.input-newsletter{
+	height:46px;
+	width:282px;
+	font-family: FontAwesome;
+}
+#nameNewsletter{
+	width:313px;
+}
+#emailNewsletter{
+	width:386px;
+}
+@media(max-width:970px){
+	#emailNewsletter{
+	width:313px;
+}
+}
+#mapImg{
+	background-repeat: no-repeat;
+	margin-top:50px;
+}
+#hrUpFooter{
+	width:60%;
+	text-align: center;
+}
+#footerLi li a{
+	color:black;
+}
+#footerLi li a:hover{
+	color:#FFBB42;
+}
+#underFooterLi{
+	text-align:center;
+}
+#mediaFooter{
+	margin-top:-10px;
+}
+.mediaMarginFooter{
+	margin-right:10px;
+}
+#phoneFooter{
+	font-size:22px;
+}
+#footerBottom{
+	background-color:#709DCA;
+	text-align:center;
+}
+#pFooter{
+	color:white;
+	width:100%;
+}
